@@ -9,10 +9,10 @@
  */
 class DB {
     // Database credentials
-    private $dbHost     = 'localhost';
-    private $dbUsername = 'root';
-    private $dbPassword = '';
-    private $dbName     = 'crud_angular';
+    private $dbHost     = 'db-server-public-ip';
+    private $dbUsername = 'php';
+    private $dbPassword = 'php';
+    private $dbName     = 'crudangular';
     public $db;
     
     /*
